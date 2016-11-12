@@ -92,7 +92,7 @@
     'patterns': [
       {
         'comment': ''
-        'match': '(?<=^|\\s)(?i:(2CONSTANT|2VARIABLE|ALIAS|CONSTANT|CREATE-INTERPRET/COMPILE[:]?|CREATE|DEFER|FCONSTANT|FIELD|FVARIABLE|USER|VALUE|VARIABLE|VOCABULARY))(?=\\s)'
+        'match': '(?<=^|\\s)(?i:(2CONSTANT|2VARIABLE|ALIAS|CONSTANT|CREATE-INTERPRET/COMPILE[:]?|CREATE|DEFER|FCONSTANT|FIELD|FVARIABLE|USER|VALUE|VARIABLE|VOCABULARY|METHOD|OVERRIDES|implementation|selector|inst-value|inst-var))(?=\\s)'
         'name': 'storage.type.forth'
       }
     ]
@@ -147,7 +147,7 @@
         'name': 'keyword.other.compile-only.forth'
       }
       {
-        'match': '(?<=^|\\s)(?i:(\'|<IS>|<TO>|CHAR|END-STRUCT|INCLUDE[D]?|LOAD|NEEDS|REQUIRE[D]?|REVISION|SEE|STRUCT|THRU|USE))(?=\\s)'
+        'match': '(?<=^|\\s)(?i:(\'|<IS>|<TO>|CHAR|END-STRUCT|INCLUDE[D]?|LOAD|NEEDS|REQUIRE[D]?|REVISION|SEE|STRUCT|THRU|USE|OBJECT|CLASS|END-CLASS|M:|;M|PROTECTED|PUBLIC|interface|end-interface))(?=\\s)'
         'name': 'keyword.other.non-immediate.forth'
       }
       {
