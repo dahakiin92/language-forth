@@ -1,7 +1,7 @@
 {
   "name": "language-gforth-objects",
   "version": "0.4.0",
-  "description": "GForth language support in Atom",
+  "description": "Forth language support in Atom with objects.fs highlighting added from Gforth!",
   "repository": {
     "type": "git",
     "url": "https://github.com/harrypower/language-forth.git"
@@ -13,7 +13,7 @@
   "readme": "# Forth language support in Atom\n\nAdds syntax highlighting to Forth files in Atom.\n\nAdds Gforth support for objects.fs objects highlighting!",
   "readmeFilename": "README.md",
   "author": {
-    "name": "Maximilian Irro"
+    "name": "Philip K. Smith"
   },
   "license": "MIT",
   "engines": {
