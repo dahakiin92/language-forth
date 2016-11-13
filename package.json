@@ -1,6 +1,6 @@
 {
   "name": "language-gforth-objects",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Forth language support in Atom with objects.fs highlighting added from Gforth!",
   "repository": {
     "type": "git",
