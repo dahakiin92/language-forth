@@ -4,6 +4,8 @@
   'fs'
   '4th'
   'forth'
+  'txt'
+  '4w'
 ]
 'foldingStartMarker': '/\\*\\*|\\{\\s*$'
 'foldingStopMarker': '\\*\\*/|^\\s*\\}'
